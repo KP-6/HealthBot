@@ -1,12 +1,12 @@
 {
   "name": "healthcare-chatbot",
   "version": "1.0.0",
-  "description": "A healthcare chatbot using Google Gemini API",
+  "description": "Healthcare chatbot using Google Gemini API",
   "main": "index.js",
   "scripts": {
     "start": "netlify dev",
-    "build": "npm install",
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "build": "npm install"
   },
   "dependencies": {
     "@google/generative-ai": "^0.1.3",
